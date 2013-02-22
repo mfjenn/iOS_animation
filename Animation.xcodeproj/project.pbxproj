@@ -1,0 +1,328 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F74FBC6E16D71C4600715974 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F74FBC6D16D71C4600715974 /* UIKit.framework */; };
+		F74FBC7016D71C4600715974 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F74FBC6F16D71C4600715974 /* Foundation.framework */; };
+		F74FBC7216D71C4600715974 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F74FBC7116D71C4600715974 /* CoreGraphics.framework */; };
+		F74FBC7816D71C4600715974 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F74FBC7616D71C4600715974 /* InfoPlist.strings */; };
+		F74FBC7A16D71C4700715974 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F74FBC7916D71C4700715974 /* main.m */; };
+		F74FBC7E16D71C4700715974 /* ANAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F74FBC7D16D71C4700715974 /* ANAppDelegate.m */; };
+		F74FBC8016D71C4700715974 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = F74FBC7F16D71C4700715974 /* Default.png */; };
+		F74FBC8216D71C4700715974 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F74FBC8116D71C4700715974 /* Default@2x.png */; };
+		F74FBC8416D71C4700715974 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F74FBC8316D71C4700715974 /* Default-568h@2x.png */; };
+		F74FBC8716D71C4700715974 /* ANViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F74FBC8616D71C4700715974 /* ANViewController.m */; };
+		F74FBC8A16D71C4700715974 /* ANViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F74FBC8816D71C4700715974 /* ANViewController.xib */; };
+		F74FBC9616D727D300715974 /* bg_tile.png in Resources */ = {isa = PBXBuildFile; fileRef = F74FBC9116D727D300715974 /* bg_tile.png */; };
+		F74FBC9716D727D300715974 /* lilypad_green.png in Resources */ = {isa = PBXBuildFile; fileRef = F74FBC9216D727D300715974 /* lilypad_green.png */; };
+		F74FBC9816D727D300715974 /* lilypad_orange.png in Resources */ = {isa = PBXBuildFile; fileRef = F74FBC9316D727D300715974 /* lilypad_orange.png */; };
+		F74FBC9916D727D300715974 /* lilypad_teal.png in Resources */ = {isa = PBXBuildFile; fileRef = F74FBC9416D727D300715974 /* lilypad_teal.png */; };
+		F74FBC9A16D727D300715974 /* lilypad_yellow.png in Resources */ = {isa = PBXBuildFile; fileRef = F74FBC9516D727D300715974 /* lilypad_yellow.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F74FBC6916D71C4600715974 /* Animation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Animation.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F74FBC6D16D71C4600715974 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		F74FBC6F16D71C4600715974 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F74FBC7116D71C4600715974 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		F74FBC7516D71C4600715974 /* Animation-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Animation-Info.plist"; sourceTree = "<group>"; };
+		F74FBC7716D71C4600715974 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F74FBC7916D71C4700715974 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F74FBC7B16D71C4700715974 /* Animation-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Animation-Prefix.pch"; sourceTree = "<group>"; };
+		F74FBC7C16D71C4700715974 /* ANAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ANAppDelegate.h; sourceTree = "<group>"; };
+		F74FBC7D16D71C4700715974 /* ANAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ANAppDelegate.m; sourceTree = "<group>"; };
+		F74FBC7F16D71C4700715974 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		F74FBC8116D71C4700715974 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		F74FBC8316D71C4700715974 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		F74FBC8516D71C4700715974 /* ANViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ANViewController.h; sourceTree = "<group>"; };
+		F74FBC8616D71C4700715974 /* ANViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ANViewController.m; sourceTree = "<group>"; };
+		F74FBC8916D71C4700715974 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ANViewController.xib; sourceTree = "<group>"; };
+		F74FBC9116D727D300715974 /* bg_tile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bg_tile.png; sourceTree = "<group>"; };
+		F74FBC9216D727D300715974 /* lilypad_green.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lilypad_green.png; sourceTree = "<group>"; };
+		F74FBC9316D727D300715974 /* lilypad_orange.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lilypad_orange.png; sourceTree = "<group>"; };
+		F74FBC9416D727D300715974 /* lilypad_teal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lilypad_teal.png; sourceTree = "<group>"; };
+		F74FBC9516D727D300715974 /* lilypad_yellow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lilypad_yellow.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F74FBC6616D71C4600715974 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F74FBC6E16D71C4600715974 /* UIKit.framework in Frameworks */,
+				F74FBC7016D71C4600715974 /* Foundation.framework in Frameworks */,
+				F74FBC7216D71C4600715974 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F74FBC5E16D71C4600715974 = {
+			isa = PBXGroup;
+			children = (
+				F74FBC7316D71C4600715974 /* Animation */,
+				F74FBC6C16D71C4600715974 /* Frameworks */,
+				F74FBC6A16D71C4600715974 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F74FBC6A16D71C4600715974 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F74FBC6916D71C4600715974 /* Animation.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F74FBC6C16D71C4600715974 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F74FBC6D16D71C4600715974 /* UIKit.framework */,
+				F74FBC6F16D71C4600715974 /* Foundation.framework */,
+				F74FBC7116D71C4600715974 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F74FBC7316D71C4600715974 /* Animation */ = {
+			isa = PBXGroup;
+			children = (
+				F74FBC9016D727D300715974 /* Images-2 */,
+				F74FBC7C16D71C4700715974 /* ANAppDelegate.h */,
+				F74FBC7D16D71C4700715974 /* ANAppDelegate.m */,
+				F74FBC8516D71C4700715974 /* ANViewController.h */,
+				F74FBC8616D71C4700715974 /* ANViewController.m */,
+				F74FBC8816D71C4700715974 /* ANViewController.xib */,
+				F74FBC7416D71C4600715974 /* Supporting Files */,
+			);
+			path = Animation;
+			sourceTree = "<group>";
+		};
+		F74FBC7416D71C4600715974 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F74FBC7516D71C4600715974 /* Animation-Info.plist */,
+				F74FBC7616D71C4600715974 /* InfoPlist.strings */,
+				F74FBC7916D71C4700715974 /* main.m */,
+				F74FBC7B16D71C4700715974 /* Animation-Prefix.pch */,
+				F74FBC7F16D71C4700715974 /* Default.png */,
+				F74FBC8116D71C4700715974 /* Default@2x.png */,
+				F74FBC8316D71C4700715974 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F74FBC9016D727D300715974 /* Images-2 */ = {
+			isa = PBXGroup;
+			children = (
+				F74FBC9116D727D300715974 /* bg_tile.png */,
+				F74FBC9216D727D300715974 /* lilypad_green.png */,
+				F74FBC9316D727D300715974 /* lilypad_orange.png */,
+				F74FBC9416D727D300715974 /* lilypad_teal.png */,
+				F74FBC9516D727D300715974 /* lilypad_yellow.png */,
+			);
+			path = "Images-2";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F74FBC6816D71C4600715974 /* Animation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F74FBC8D16D71C4700715974 /* Build configuration list for PBXNativeTarget "Animation" */;
+			buildPhases = (
+				F74FBC6516D71C4600715974 /* Sources */,
+				F74FBC6616D71C4600715974 /* Frameworks */,
+				F74FBC6716D71C4600715974 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Animation;
+			productName = Animation;
+			productReference = F74FBC6916D71C4600715974 /* Animation.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F74FBC6016D71C4600715974 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = AN;
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Mary Jenn";
+			};
+			buildConfigurationList = F74FBC6316D71C4600715974 /* Build configuration list for PBXProject "Animation" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = F74FBC5E16D71C4600715974;
+			productRefGroup = F74FBC6A16D71C4600715974 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F74FBC6816D71C4600715974 /* Animation */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F74FBC6716D71C4600715974 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F74FBC7816D71C4600715974 /* InfoPlist.strings in Resources */,
+				F74FBC8016D71C4700715974 /* Default.png in Resources */,
+				F74FBC8216D71C4700715974 /* Default@2x.png in Resources */,
+				F74FBC8416D71C4700715974 /* Default-568h@2x.png in Resources */,
+				F74FBC8A16D71C4700715974 /* ANViewController.xib in Resources */,
+				F74FBC9616D727D300715974 /* bg_tile.png in Resources */,
+				F74FBC9716D727D300715974 /* lilypad_green.png in Resources */,
+				F74FBC9816D727D300715974 /* lilypad_orange.png in Resources */,
+				F74FBC9916D727D300715974 /* lilypad_teal.png in Resources */,
+				F74FBC9A16D727D300715974 /* lilypad_yellow.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F74FBC6516D71C4600715974 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F74FBC7A16D71C4700715974 /* main.m in Sources */,
+				F74FBC7E16D71C4700715974 /* ANAppDelegate.m in Sources */,
+				F74FBC8716D71C4700715974 /* ANViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F74FBC7616D71C4600715974 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F74FBC7716D71C4600715974 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		F74FBC8816D71C4700715974 /* ANViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F74FBC8916D71C4700715974 /* en */,
+			);
+			name = ANViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F74FBC8B16D71C4700715974 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F74FBC8C16D71C4700715974 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F74FBC8E16D71C4700715974 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Animation/Animation-Prefix.pch";
+				INFOPLIST_FILE = "Animation/Animation-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		F74FBC8F16D71C4700715974 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Animation/Animation-Prefix.pch";
+				INFOPLIST_FILE = "Animation/Animation-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F74FBC6316D71C4600715974 /* Build configuration list for PBXProject "Animation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F74FBC8B16D71C4700715974 /* Debug */,
+				F74FBC8C16D71C4700715974 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F74FBC8D16D71C4700715974 /* Build configuration list for PBXNativeTarget "Animation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F74FBC8E16D71C4700715974 /* Debug */,
+				F74FBC8F16D71C4700715974 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F74FBC6016D71C4600715974 /* Project object */;
+}
